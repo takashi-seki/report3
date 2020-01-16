@@ -27,4 +27,6 @@ class ProfileController extends Controller
     {
         return redirect('admin/profile/edit');
     }
-}
+
+#課題２　Controllerとはユーザーからのアクセスに対してデータを取得したりデータをユーザーに渡したりする中枢的な役割を果たす。
+#課題３　Routingはユーザーからのアクセスを種類によってContollerの各Actionに振り分ける役割を果たす。
